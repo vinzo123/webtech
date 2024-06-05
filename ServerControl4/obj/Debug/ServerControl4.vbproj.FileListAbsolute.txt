@@ -1,0 +1,12 @@
+c:\users\admin\documents\visual studio 2010\Projects\ServerControl4\ServerControl4\obj\Debug\ServerControl4.Form1.resources
+c:\users\admin\documents\visual studio 2010\Projects\ServerControl4\ServerControl4\obj\Debug\ServerControl4.Resources.resources
+c:\users\admin\documents\visual studio 2010\Projects\ServerControl4\ServerControl4\obj\Debug\ServerControl4.vbproj.GenerateResource.Cache
+c:\users\admin\documents\visual studio 2010\Projects\ServerControl4\ServerControl4\bin\Debug\ServerControl4.pdb
+c:\users\admin\documents\visual studio 2010\Projects\ServerControl4\ServerControl4\bin\Debug\ServerControl4.xml
+c:\users\admin\documents\visual studio 2010\Projects\ServerControl4\ServerControl4\obj\Debug\ServerControl4.xml
+c:\users\admin\documents\visual studio 2010\Projects\ServerControl4\ServerControl4\obj\Debug\ServerControl4.pdb
+c:\users\admin\documents\visual studio 2010\Projects\ServerControl4\ServerControl4\bin\Debug\ServerControl4.exe
+c:\users\admin\documents\visual studio 2010\Projects\ServerControl4\ServerControl4\obj\Debug\ServerControl4.exe
+D:\1090 web technology\ServerControl4\ServerControl4\obj\Debug\ServerControl4.exe
+D:\1090 web technology\ServerControl4\ServerControl4\obj\Debug\ServerControl4.xml
+D:\1090 web technology\ServerControl4\ServerControl4\obj\Debug\ServerControl4.pdb

@@ -1,0 +1,78 @@
+<html>
+<head>
+<title>Student Registration Form</title>
+<script type="text/javascript">
+function validate()
+{
+if (document. signup.fname.value == "") {alert("Please Enter First Name!"); return false;
+}
+if (document.signup.lname.value == "") {alert("Please Enter Last Name!"); return false;
+}
+if (document.signup.uname.value == "") {alert("Please Enter User Name!"); return false;
+}
+if (document. signup.pword1.value == "") {alert("Please Enter Password!"); return false;
+}
+if (document. signup.pword1.value < 6) {alert("Please Enter min 6 characters!"); return false;
+}
+if (document. signup.pword2.value == "") {alert("Please Enter Password Again!"); return false;
+}   
+if (document.signup.pword2.value != document.signup.pword1.value) {alert("Password Mismatch Reenter Password!"); return false;
+}
+alert("Details Entered Successfully");
+display();
+}
+function display () {
+document.writeln('<h2>' + "Details Entered:" + '</h2>');
+document.writeln('<br/><fontcolor="#0066ff">'+"FirstName:"+'</font>'+document.signup.fname.value);
+document.writeln('<br/><fontcolor="#0066ff">'+"LastName:"+'</font>'+document.signup.lname.value);
+document.writeln('<br/><fontcolor="#0066ff">'+"UseName:"+'</font>'+ document.signup.uname.value);
+document.writeln('<br/><fontcolor="#0066ff">'+"Country:"+'</font>'+ document.signup.country.value);
+document.writeln('<br/><fontcolor="#0066ff">'+"AlternateEmail"+'</font>'+ document.signup.aemail.value);
+}
+</script>
+</head>
+<body align="center" bgcolor="red">
+<table width="100%" height="100%">
+<td colspan="2" width="15%">
+</td>
+<td colspan="1" bgcolor="#ffffff" width="70%" height="100%">
+<h1 align="center">
+<font color="#0066ff">Email</font>
+</h1>
+<h2 align="center">
+<font color="#0066ff">New User Signup Form</font>
+</h2>
+<form name="signup" method="POST" onsubmit="return validate()">
+<fontface="verdana, arial,helvetica,sanserif" color="#660000" size="2">
+<p>&nbsp;&nbsp;*First Name:<input type="text" name="fname" size="20">&nbsp;&nbsp;*LastName:<input
+type="text"name="lname" size="20">
+</p>
+<p style="border">&nbsp;&nbsp;*User Name:<input type="text" name="uname"size="20">@smail.com</p>
+<p style="border">&nbsp;&nbsp;*Password:<input type="password"name="pword1" size="20"></p>
+<p style="border">&nbsp;&nbsp;*Confirm Password:<input type="password"name="pword2" size="20"></p>
+<p>&nbsp;&nbsp;Gender:<input type="radio"name="gen"value="male">Male<input type="radio"name="gen"
+value="female">Female</p>
+<p>&nbsp;&nbsp;Country:<select name="country">
+<option selected>Select Country</option>
+<option name="country" value="India">India</option>
+<option name="country" value="Korea">Korea</option>
+<option name="country" value="Canada">Canada</option>
+<option name="country" value="Netherlands">Netherlands</option>
+</select>
+</p>
+<p>&nbsp;&nbsp;Language Known:<br> &nbsp;&nbsp;
+<input type="checkbox"name="lang"value="English">English<br> &nbsp;&nbsp;
+<input type="checkbox" name="lang" value="Tamil">Tamil<br> &nbsp;&nbsp;
+<input type="checkbox"name="lang" value="Korean">Korean<br<input type="checkbox" name="lang"
+value="German">German<br>
+</p>
+<p style="border">&nbsp;&nbsp;Alternate Email:<input type="text" name="aemail"size="20"></p>
+<p align="center"><input type="checkbox" name="agree">I Agree The Terms &onditions</p>
+<p align="center"><input type="submit" value="submit"> <input type="reset"value="reset"></p>
+</font>
+</form>
+</td>
+<td Col span="2" width="15%"> </td>
+</table>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" version="2.0" href="student.xsl"?>
+<student>
+<Person-Details>
+<name>Aariz</name>
+<department>Mech</department>
+<univ_rank>5</univ_rank>
+<percentage>70 percent</percentage>
+</Person-Details>
+<Person-Details>
+<name>Bismi</name>
+<department>IT</department>
+<univ_rank>4</univ_rank>
+<percentage>80 percent</percentage>
+</Person-Details>
+<Person-Details>
+<name>Shiv</name>
+<department>CSE</department>
+<univ_rank>2</univ_rank>
+<percentage>90 percent</percentage>
+</Person-Details>
+<Person-Details>
+<name>Zayan</name>
+<department>Civil</department>
+<univ_rank>3</univ_rank>
+<percentage>75 percent</percentage>
+</Person-Details>
+</student>
